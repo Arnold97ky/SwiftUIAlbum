@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416AA5E428AFEB3300FCFAFB /* AppleMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA5E328AFEB3300FCFAFB /* AppleMusicApp.swift */; };
+		416AA5E628AFEB3300FCFAFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA5E528AFEB3300FCFAFB /* ContentView.swift */; };
+		416AA5E828AFEB3500FCFAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416AA5E728AFEB3500FCFAFB /* Assets.xcassets */; };
+		416AA5EB28AFEB3500FCFAFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416AA5EA28AFEB3500FCFAFB /* Preview Assets.xcassets */; };
+		416AA5F328AFECC100FCFAFB /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA5F228AFECC100FCFAFB /* AlbumView.swift */; };
+		416AA5F728AFED6600FCFAFB /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA5F628AFED6600FCFAFB /* AlbumDetailView.swift */; };
+		416AA5FA28B013FE00FCFAFB /* AlbumPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA5F928B013FE00FCFAFB /* AlbumPage.swift */; };
+		416AA5FD28B0144700FCFAFB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA5FC28B0144700FCFAFB /* NetworkManager.swift */; };
+		416AA5FF28B0145E00FCFAFB /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA5FE28B0145E00FCFAFB /* NetworkError.swift */; };
+		416AA60128B0147400FCFAFB /* NetworkParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA60028B0147400FCFAFB /* NetworkParams.swift */; };
+		416AA60428B01A2800FCFAFB /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416AA60328B01A2800FCFAFB /* AlbumListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		416AA5E028AFEB3200FCFAFB /* AppleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416AA5E328AFEB3300FCFAFB /* AppleMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicApp.swift; sourceTree = "<group>"; };
+		416AA5E528AFEB3300FCFAFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		416AA5E728AFEB3500FCFAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416AA5EA28AFEB3500FCFAFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		416AA5F228AFECC100FCFAFB /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		416AA5F628AFED6600FCFAFB /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		416AA5F928B013FE00FCFAFB /* AlbumPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPage.swift; sourceTree = "<group>"; };
+		416AA5FC28B0144700FCFAFB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		416AA5FE28B0145E00FCFAFB /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		416AA60028B0147400FCFAFB /* NetworkParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParams.swift; sourceTree = "<group>"; };
+		416AA60328B01A2800FCFAFB /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416AA5DD28AFEB3200FCFAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416AA5D728AFEB3200FCFAFB = {
+			isa = PBXGroup;
+			children = (
+				416AA5E228AFEB3200FCFAFB /* AppleMusic */,
+				416AA5E128AFEB3200FCFAFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416AA5E128AFEB3200FCFAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416AA5E028AFEB3200FCFAFB /* AppleMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416AA5E228AFEB3200FCFAFB /* AppleMusic */ = {
+			isa = PBXGroup;
+			children = (
+				416AA60228B01A0000FCFAFB /* ViewModel */,
+				416AA5FB28B0141D00FCFAFB /* Service */,
+				416AA5F828AFED9800FCFAFB /* Model */,
+				416AA5E328AFEB3300FCFAFB /* AppleMusicApp.swift */,
+				416AA5F128AFEBDC00FCFAFB /* View */,
+				416AA5E728AFEB3500FCFAFB /* Assets.xcassets */,
+				416AA5E928AFEB3500FCFAFB /* Preview Content */,
+			);
+			path = AppleMusic;
+			sourceTree = "<group>";
+		};
+		416AA5E928AFEB3500FCFAFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				416AA5EA28AFEB3500FCFAFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		416AA5F128AFEBDC00FCFAFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				416AA5E528AFEB3300FCFAFB /* ContentView.swift */,
+				416AA5F228AFECC100FCFAFB /* AlbumView.swift */,
+				416AA5F628AFED6600FCFAFB /* AlbumDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		416AA5F828AFED9800FCFAFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				416AA5F928B013FE00FCFAFB /* AlbumPage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		416AA5FB28B0141D00FCFAFB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				416AA5FC28B0144700FCFAFB /* NetworkManager.swift */,
+				416AA5FE28B0145E00FCFAFB /* NetworkError.swift */,
+				416AA60028B0147400FCFAFB /* NetworkParams.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		416AA60228B01A0000FCFAFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				416AA60328B01A2800FCFAFB /* AlbumListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416AA5DF28AFEB3200FCFAFB /* AppleMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416AA5EE28AFEB3500FCFAFB /* Build configuration list for PBXNativeTarget "AppleMusic" */;
+			buildPhases = (
+				416AA5DC28AFEB3200FCFAFB /* Sources */,
+				416AA5DD28AFEB3200FCFAFB /* Frameworks */,
+				416AA5DE28AFEB3200FCFAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleMusic;
+			productName = AppleMusic;
+			productReference = 416AA5E028AFEB3200FCFAFB /* AppleMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416AA5D828AFEB3200FCFAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					416AA5DF28AFEB3200FCFAFB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 416AA5DB28AFEB3200FCFAFB /* Build configuration list for PBXProject "AppleMusic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416AA5D728AFEB3200FCFAFB;
+			productRefGroup = 416AA5E128AFEB3200FCFAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416AA5DF28AFEB3200FCFAFB /* AppleMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416AA5DE28AFEB3200FCFAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416AA5EB28AFEB3500FCFAFB /* Preview Assets.xcassets in Resources */,
+				416AA5E828AFEB3500FCFAFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416AA5DC28AFEB3200FCFAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416AA5FD28B0144700FCFAFB /* NetworkManager.swift in Sources */,
+				416AA5FF28B0145E00FCFAFB /* NetworkError.swift in Sources */,
+				416AA60428B01A2800FCFAFB /* AlbumListViewModel.swift in Sources */,
+				416AA5F328AFECC100FCFAFB /* AlbumView.swift in Sources */,
+				416AA5E628AFEB3300FCFAFB /* ContentView.swift in Sources */,
+				416AA60128B0147400FCFAFB /* NetworkParams.swift in Sources */,
+				416AA5E428AFEB3300FCFAFB /* AppleMusicApp.swift in Sources */,
+				416AA5FA28B013FE00FCFAFB /* AlbumPage.swift in Sources */,
+				416AA5F728AFED6600FCFAFB /* AlbumDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		416AA5EC28AFEB3500FCFAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		416AA5ED28AFEB3500FCFAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416AA5EF28AFEB3500FCFAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleMusic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = consultantKy.AppleMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		416AA5F028AFEB3500FCFAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleMusic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = consultantKy.AppleMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416AA5DB28AFEB3200FCFAFB /* Build configuration list for PBXProject "AppleMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416AA5EC28AFEB3500FCFAFB /* Debug */,
+				416AA5ED28AFEB3500FCFAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416AA5EE28AFEB3500FCFAFB /* Build configuration list for PBXNativeTarget "AppleMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416AA5EF28AFEB3500FCFAFB /* Debug */,
+				416AA5F028AFEB3500FCFAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416AA5D828AFEB3200FCFAFB /* Project object */;
+}
